@@ -168,3 +168,4 @@ You're now ready to [start using Git LFS](https://github.com/git-lfs/git-lfs#exa
       git fetch --all
       git lfs migrate import --everything --above=25MiB
       git push --all --force-with-lease
+  <!-- trigger build -->.
