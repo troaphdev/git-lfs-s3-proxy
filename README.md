@@ -163,6 +163,7 @@ You're now ready to [start using Git LFS](https://github.com/git-lfs/git-lfs#exa
       git push --all --force-with-lease
 
 - To add all existing files above 25 MiB to Git LFS (which [rewrites history](https://stackoverflow.com/q/1491001), so be careful), use [`git lfs migrate`](https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-migrate.adoc):
+- <!-- trigger build -->.
 
       git fetch --all
       git lfs migrate import --everything --above=25MiB
